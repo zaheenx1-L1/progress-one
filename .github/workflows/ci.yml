@@ -1,0 +1,39 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  core-tests:
+    name: Core tests (Linux)
+    runs-on: ubuntu-latest
+    container: swift:6.1-noble
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run ProgressCore tests
+        working-directory: Packages/ProgressCore
+        run: swift test
+
+  app-build:
+    name: Build app (iOS and macOS)
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Show Xcode version
+        run: xcodebuild -version
+      - name: Build for iOS Simulator
+        run: |
+          xcodebuild build \
+            -project ProgressOne.xcodeproj \
+            -scheme ProgressOne \
+            -destination 'generic/platform=iOS Simulator' \
+            CODE_SIGNING_ALLOWED=NO
+      - name: Build for macOS
+        run: |
+          xcodebuild build \
+            -project ProgressOne.xcodeproj \
+            -scheme ProgressOne \
+            -destination 'generic/platform=macOS' \
+            CODE_SIGNING_ALLOWED=NO
