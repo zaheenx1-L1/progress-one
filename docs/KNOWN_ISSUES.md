@@ -6,7 +6,7 @@
 | KI-2 | Free Apple ID: the iPhone app expires after 7 days and must be reinstalled from Xcode. | Weekly reinstall. | Paid Apple Developer Program removes it; no code change needed. |
 | KI-3 | Free Apple ID: no Sign in with Apple, no remote push notifications, no TestFlight. | Email sign-in; reminders will be local notifications (Step 4). | Revisit if the program is purchased. |
 | KI-4 | Free Supabase projects pause after a week without activity. | Sync shows Offline until the project is restored in the dashboard. | Documented in the install guide. |
-| KI-5 | The app UI code has not been compiled on a Mac by the developer; the CI build on GitHub's macOS runner is the first compile check. | Possible compile fixes needed. | Fixed in the pull request before merge. |
+| KI-5 | The app compiles for iOS and macOS in CI, but has not yet been run on a real device or simulator. | Runtime problems would only show once installed. | First install on the owner's devices (TEST_PLAN.md manual tests). |
 | KI-6 | Signing out and signing in with a different account on the same device is not supported yet; records from the first account would be sent to the second. | Only matters with two accounts. | Add "erase this device's data" on account switch in Step 2. |
 | KI-7 | Region and app-lock settings are per device, not synced. | Set them on each device. | Move to a synced profile in Step 2. |
 | KI-8 | Local lookups load a whole table into memory for sync. | Fine for thousands of records; slower beyond that. | Add indexed queries when data grows. |

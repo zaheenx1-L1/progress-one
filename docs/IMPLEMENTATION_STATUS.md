@@ -12,11 +12,10 @@ _Last updated: 2026-10-20, Step 1._
 ## Tested
 
 - 35 automated tests pass (Linux, Swift 6.1), including the real migration on Postgres 16 + PostgREST 12.2: two-device sync, offline queue, conflicts, paging, deletion, and privacy between users.
-- The app's SwiftUI code has **not** been compiled or run yet. The CI job on GitHub's macOS runner is the first compile; then it needs a run on your iPhone and Mac.
+- The app compiles for iOS Simulator and macOS on GitHub's macOS runner (CI green on 2026-10-20). It has **not** been run yet; that happens on your iPhone and Mac.
 
 ## Pending
 
-- Compile check in CI, and fixes if needed.
 - Owner setup: Xcode 26, Supabase project, first install on both devices.
 - Real-device acceptance tests A, B, H, I, J and the app lock (see TEST_PLAN.md).
 - Steps 2–4 (see DEVELOPMENT_ROADMAP.md and FEATURE_MATRIX.md).
