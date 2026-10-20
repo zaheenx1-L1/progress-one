@@ -1,0 +1,2399 @@
+PROGRESS ONE
+THE ULTIMATE INTELLIGENT LIFE, BUSINESS & PERSONAL GROWTH OPERATING SYSTEM
+MASTER PRODUCT REQUIREMENTS, UX/UI DESIGN, SOFTWARE ARCHITECTURE & FULL DEVELOPMENT INSTRUCTION
+Project Type:
+ Production-Quality Native Apple Application
+Target Devices:
+ Apple iPhone 13 Pro Max and my MacBook
+Platforms:
+ iOS and macOS
+Synchronization:
+ Automatic, secure, bidirectional synchronization between iPhone and MacBook
+Application Category:
+ Personal Life Operating System, Executive Productivity, Sales CRM, Financial Goal Management, AI Life Coaching, Personal Development, and Business Intelligence
+Primary User:
+ Entrepreneur, business professional, real estate consultant, technology business owner, and individual committed to continuous personal development.
+PART 1 — YOUR ROLE AND MISSION
+You are acting as an elite multidisciplinary software development and product strategy organization consisting of:
+	1	
+Chief Product Officer
+	2	
+Senior Apple iOS and macOS Software Architect
+	3	
+Expert Swift and SwiftUI Developer
+	4	
+Salesforce CRM Solutions Architect
+	5	
+Cloud Database and Synchronization Specialist
+	6	
+Artificial Intelligence Systems Engineer
+	7	
+Personal Development and Executive Coaching Specialist
+	8	
+Behavioral Science and Habit Formation Expert
+	9	
+Financial Performance and Business Intelligence Consultant
+	10	
+Sales Strategy and Business Development Advisor
+	11	
+Fitness and Wellness Planning Specialist
+	12	
+Communication and Leadership Development Coach
+	13	
+Educational and Lifelong Learning Specialist
+	14	
+Professional Data Visualization Designer
+	15	
+Award-Winning Apple Ecosystem UX/UI Designer
+	16	
+Application Security and Data Privacy Architect
+	17	
+Software Quality Assurance and Deployment Engineer
+You are responsible for the complete product, from understanding my life and business requirements to producing a fully functional, installable, synchronized Apple application.
+The Fundamental Mission
+Design and build the most complete, sophisticated, elegant, intelligent, and practical personal life management and progress-monitoring application possible within a maintainable and reliable software architecture.
+I do not want another conventional task manager.
+I do not want only a sales CRM.
+I do not want merely a motivational application.
+I do not want a collection of disconnected productivity tools.
+I want one unified intelligent platform that helps me organize, monitor, assess, and progressively improve every significant dimension of my personal and professional life.
+It must be my:
+Personal executive assistant
+Daily schedule manager
+Comprehensive task manager
+Salesforce-inspired business CRM
+Sales pipeline manager
+Business revenue and financial performance tracker
+Personal financial growth planner
+Personal goal-setting system
+Fitness and wellness progress tracker
+Communication and leadership improvement coach
+Knowledge and reading development system
+Meaningful educational content manager
+Spiritual and inner development planner
+Personal discipline and habit-development system
+Family and personal responsibility organizer
+Long-term life planning assistant
+Intelligent AI life mentor
+Weekly, monthly, quarterly, and annual performance assessment system
+Lifelong record of personal development and achievements
+It must help me make better decisions, act consistently, develop meaningful habits, achieve financial and professional goals, and become a more capable, disciplined, knowledgeable, balanced, and successful individual over time.
+PART 2 — THE CORE PRODUCT PHILOSOPHY
+The application must be organized around the following progression:
+WHO I WANT TO BECOME
+WHAT I WANT TO ACHIEVE IN LIFE
+MY 10-YEAR VISION
+MY 5-YEAR OBJECTIVES
+MY 3-YEAR DEVELOPMENT PLAN
+MY ANNUAL GOALS
+MY QUARTERLY MILESTONES
+MY MONTHLY TARGETS
+MY WEEKLY COMMITMENTS
+MY DAILY SCHEDULE AND ACTIONS
+MY ACTUAL PERFORMANCE
+MY WEEKLY, MONTHLY AND YEARLY ASSESSMENTS
+MY AI MENTOR'S RECOMMENDATIONS
+MY CONTINUOUS PERSONAL AND PROFESSIONAL IMPROVEMENT
+This must not merely be a diagram. It must represent the real operational architecture of the entire application.
+For example:
+If my annual objective is to improve communication skills, the system must help me establish milestones, schedule speaking practice, record progress, analyze performance, and recommend improvements.
+If my objective is to achieve a specific commission income through Greentick Real Estate, the system must connect financial targets to actual sales leads, active negotiations, deal pipelines, client follow-ups, and completed transactions.
+If my objective is to improve physical fitness, the system must connect my desired outcome to scheduled workouts, recorded activity, and progress assessments.
+Every meaningful daily activity should connect, where appropriate, to a larger goal or responsibility.
+PART 3 — MANDATORY TWO-DEVICE APPLE ECOSYSTEM
+THIS IS ONE OF THE MOST IMPORTANT REQUIREMENTS.
+I currently want to use this application on:
+Device 1: My Apple iPhone 13 Pro Max
+Device 2: My MacBook
+The application must be installable and usable on both devices.
+It must feel like one unified system, not two different applications with disconnected databases.
+3.1 Native iPhone Application
+Develop a professional native iPhone experience with:
+SwiftUI-based interface
+Native iOS navigation
+Full-screen daily dashboard
+Smooth touch gestures
+Face ID security where supported
+Easy one-handed interactions
+Fast task creation
+Quick lead creation
+Voice-assisted task capture
+Smart notifications
+Daily timeline
+Calendar integration
+AI mentor conversations
+Optimized graphical dashboards
+Light and dark modes
+Excellent performance on the iPhone 13 Pro Max
+Verify the minimum iOS version and technical compatibility with my actual device before finalizing the deployment configuration.
+Do not unnecessarily require a newer iPhone.
+3.2 Native MacBook Application
+Develop a fully usable native macOS version.
+Do not merely enlarge the iPhone interface.
+The MacBook version should have a professional desktop experience featuring:
+Spacious executive dashboard
+Sidebar navigation
+Multi-column layouts
+Advanced data tables
+Powerful CRM management
+Keyboard shortcuts
+Global search
+Rapid task entry
+Detailed goal planning
+Advanced reporting
+Large interactive graphs
+Easy financial data entry
+Drag-and-drop where appropriate
+Document management
+Exporting and printing reports
+Multiple window support where useful
+Native macOS menu and toolbar behavior
+Appropriate desktop notifications
+The Mac version should be optimized for serious planning, business management, financial analysis, detailed reporting, and long-form reflection.
+The iPhone should be optimized for daily execution, quick capture, reminders, meetings, follow-ups, and on-the-move use.
+3.3 Automatic Two-Way Synchronization
+Implement secure and reliable synchronization between iPhone and MacBook.
+Example:
+If I create a task on my MacBook, it should become available on my iPhone.
+If I complete a task on my iPhone, its status should update on the MacBook.
+If I modify a Greentick sales opportunity on my MacBook, its updated details must synchronize to my iPhone.
+If I record exercise, reading, or personal goal progress on my iPhone, it must appear in the corresponding Mac dashboard.
+Synchronization must include:
+Contacts
+Leads
+Opportunities
+Tasks
+Projects
+Calendar records
+Goals
+Milestones
+Habits
+Financial targets
+Financial records
+Notes
+Learning resources
+Reading progress
+Personal assessments
+AI coaching history, according to privacy settings
+Attachments
+Reports and relevant report data
+User preferences
+3.4 Offline-First Operation
+Both applications must remain useful without an internet connection.
+When offline:
+Previously synchronized information remains accessible.
+Tasks can be created and updated.
+Notes can be recorded.
+Goals can be reviewed.
+Relevant progress can be logged.
+Changes are saved reliably on the device.
+When connectivity returns, pending changes should synchronize automatically.
+Implement a transparent synchronization state showing:
+Synced
+Syncing
+Offline
+Pending changes
+Conflict requiring attention
+Synchronization error
+Design robust conflict handling for records edited independently on both devices.
+Avoid silent data overwrites and duplicate records.
+3.5 Architecture Decision
+Evaluate the suitability of:
+Option A: SwiftUI + local persistence + Apple CloudKit/iCloud
+Option B: SwiftUI + local persistence + Supabase/PostgreSQL
+Consider:
+Reliability
+Offline operation
+Synchronization
+Authentication
+Security
+Operating cost
+Maintainability
+AI integration
+Future business integrations
+Backup and restoration
+Future multi-user functionality
+Select and explain one coherent primary architecture.
+Do not implement two competing sources of truth.
+Verify actual Apple capabilities, development environment requirements, entitlements, and deployment constraints.
+3.6 Installation and Deployment
+The project is incomplete until I receive a clear path to install and operate the application on my iPhone 13 Pro Max and MacBook.
+Provide:
+Complete source code
+Proper Xcode project
+iOS application target
+macOS application target
+Shared code modules
+Backend setup
+Database migrations
+Required configuration
+Authentication setup
+Cloud synchronization setup
+Application signing instructions
+Device-specific deployment instructions
+Real-device testing instructions
+Data backup and recovery instructions
+Assess my MacBook's actual model, processor architecture, macOS version, and Xcode compatibility through available environment information or a minimal required setup check.
+If the Apple Developer Program or other paid services are required for particular signing, cloud, TestFlight, or distribution features, explain this accurately.
+Do not confuse simulator testing with installation on my real iPhone.
+PART 4 — PERSONAL LIFE BLUEPRINT
+The application should begin with a structured feature named:
+MY LIFE BLUEPRINT
+This is the foundation of the entire application.
+Rather than immediately asking me to create random tasks, guide me through defining the kind of life I want to build.
+Life Blueprint Questions
+The application should help me understand:
+	1	
+What are my greatest professional ambitions?
+	2	
+How much annual income do I want to generate?
+	3	
+How should my businesses develop over the next five years?
+	4	
+What financial position do I want to achieve?
+	5	
+What physical fitness level do I want to maintain?
+	6	
+Which communication abilities do I want to master?
+	7	
+What knowledge do I want to acquire?
+	8	
+What personal habits do I want to establish?
+	9	
+What spiritual practices and values are important to me?
+	10	
+How do I want to improve my family and personal relationships?
+	11	
+Which weaknesses or recurring problems should I address?
+	12	
+What would a genuinely successful and fulfilling life mean to me?
+Allow me to answer these questions progressively.
+Do not force an excessively long initial onboarding questionnaire.
+Current Life Assessment
+Allow me to establish a baseline in each life category.
+Record:
+Current position
+Desired position
+Relevant measurable indicators
+Personal assessment
+Reasons for improvement
+Available resources
+Constraints
+Target time frame
+Use these baselines to make future assessments meaningful.
+Life Vision Dashboard
+Create a visually elegant personal life blueprint with:
+Long-term vision
+Major aspirations
+Current priorities
+Annual development themes
+Goals by life category
+Milestones
+Progress
+Important achievements
+Upcoming commitments
+The blueprint must remain editable because priorities naturally change over time.
+PART 5 — COMPREHENSIVE LIFE GOAL SETTING ENGINE
+This must be one of the most sophisticated features of the application.
+5.1 Goal Categories
+Provide configurable categories including:
+	1	
+Business Growth
+	2	
+Financial Growth
+	3	
+Physical Fitness
+	4	
+Health and Wellness
+	5	
+Communication Development
+	6	
+Leadership Development
+	7	
+Education and Knowledge
+	8	
+Reading Books
+	9	
+Meaningful Educational Content
+	10	
+Spiritual Development
+	11	
+Personal Discipline
+	12	
+Family and Relationships
+	13	
+Career and Professional Development
+	14	
+Lifestyle and Life Experiences
+	15	
+Community and Contribution
+	16	
+Personal Projects
+	17	
+Custom Categories
+Allow unlimited custom subcategories.
+5.2 Detailed Goal Definition
+Every goal must support:
+Goal title
+Life category
+Detailed description
+Why the goal matters
+Current baseline
+Target outcome
+Measurement unit
+Numeric target, where applicable
+Start date
+Deadline
+Priority
+Goal owner
+Workspace
+Supporting resources
+Obstacles
+Dependencies
+Milestones
+Quarterly targets
+Monthly targets
+Weekly commitments
+Daily activities
+Linked tasks
+Linked calendar events
+Related habits
+Notes
+Attachments
+AI coaching suggestions
+Achievement criteria
+Progress history
+Review frequency
+Goal status
+5.3 Measurement Options
+Support:
+Currency amounts
+Percentages
+Counts
+Hours
+Minutes
+Days
+Weeks
+Frequency
+Distance
+Weight
+Pages read
+Books completed
+Lessons completed
+Revenue
+Profit
+Commission income
+Sales conversion
+Milestone completion
+Practice sessions
+User-defined ratings
+Custom units
+5.4 Goal Planning Wizard
+Create an AI-assisted guided goal creation experience.
+The assistant should help convert vague intentions into clear measurable targets.
+Example:
+"I want to improve my English communication."
+The system should guide me to define:
+What specifically needs improvement?
+What is my current level?
+What outcome can be measured?
+What practice is required?
+How often will I practice?
+Which milestones indicate improvement?
+How will performance be assessed?
+When should progress be reviewed?
+The user must approve the proposed goal structure before it is activated.
+5.5 Goal Hierarchy and Progress
+Support parent goals, sub-goals, milestones, related tasks, and associated performance measurements.
+Allow direct navigation from:
+Annual goal  quarterly milestone  monthly target  weekly plan  daily task.
+Avoid giving misleading completion percentages when a task or activity does not directly demonstrate the desired outcome.
+Provide separate indicators for:
+Activity completion
+Milestone completion
+Outcome achievement
+Schedule adherence
+PART 6 — BUSINESS WORKSPACES
+The application must support multiple independently managed businesses and one consolidated executive dashboard.
+My initial business workspaces should include:
+Workspace A — iExpert Technologies
+A technology services and device repair business.
+Workspace B — iExpert Training Academy
+A technical education and training business.
+Workspace C — Greentick Real Estate
+A real estate brokerage and consultancy business.
+Workspace D — Personal Life
+All personal goals, activities, commitments, and private development records.
+Allow me to rename, create, merge where safe, archive, and configure additional workspaces.
+The businesses should maintain separate financial targets, CRM pipelines, performance indicators, task categories, and reporting configurations.
+The consolidated executive dashboard should present a combined overview without mixing financially different concepts.
+PART 7 — IEXPERT BUSINESS PERFORMANCE MANAGEMENT
+Create a complete performance management environment for iExpert.
+iExpert Technologies
+Track:
+Revenue targets
+Actual revenue
+Sales pipeline
+Profitability, where sufficient data exists
+Operating expenses
+Customer acquisition
+Corporate customer development
+Repeat customers
+Repair service inquiries
+Conversion rates
+Service orders or linked operational records
+Client follow-ups
+Strategic partnerships
+Marketing initiatives
+Important operational tasks
+iExpert Training Academy
+Track:
+Enrollment targets
+Student inquiries
+Admissions pipeline
+Admissions conversion rate
+Course-specific enrollment
+Course revenue
+Monthly revenue targets
+Actual revenue
+Marketing leads
+Institutional partnerships
+Placement assistance activities
+Administrative objectives
+Development projects
+Allow business-specific pipelines and custom fields.
+Customer, student, and financial records must be protected using appropriate privacy settings.
+iExpert Goal Examples
+Reach a specified monthly sales target.
+Increase corporate business.
+Achieve a selected annual academy enrollment target.
+Improve inquiry conversion.
+Develop a specified number of business partnerships.
+Complete major operational improvement projects.
+All amounts and quantities must be user-configurable.
+Never assume demonstration figures are actual business performance.
+PART 8 — GREENTICK REAL ESTATE CRM & FINANCIAL MANAGEMENT
+Create a high-quality Salesforce-inspired real estate CRM.
+Contact Management
+Support:
+Buyers
+Sellers
+Landlords
+Tenants
+Developers
+Investors
+Brokers
+Corporate clients
+Service providers
+Other stakeholders
+Each contact must have a structured profile and interaction history.
+Property Management
+Support records for:
+Property type
+Location
+Project
+Plot number
+Built-up area
+Plot area
+Ownership information
+Asking price
+Proposed price
+Deal type
+Transaction stage
+Buyer
+Seller
+Related contacts
+Important documents
+Notes
+Follow-up activities
+Allow configurable property fields rather than assuming every real estate transaction follows the same process.
+Lead Pipeline
+Allow customizable stages such as:
+New Inquiry
+Initial Contact
+Qualified
+Requirement Confirmed
+Meeting Scheduled
+Property Identified
+Viewing/Presentation
+Offer Submitted
+Negotiation
+Agreement Preparation
+Due Diligence
+Final Documentation
+Closed Won
+Closed Lost
+Transaction Management
+Each transaction should support:
+Transaction name
+Buyer
+Seller
+Property
+Expected transaction value
+Actual transaction value
+Commission percentage
+Gross commission
+Commission sharing, where applicable
+Net expected commission
+Commission earned
+Commission received
+Outstanding receivables
+Closing probability
+Expected closing date
+Actual closing date
+Documents
+Negotiation notes
+Important milestones
+Follow-ups
+Next actions
+Distinguish:
+Gross property value is not brokerage revenue.
+Expected commission is not received commission.
+Forecast is not confirmed income.
+Greentick Financial Goals
+Allow exact financial targets in AED for:
+Weekly commission targets
+Monthly commission targets
+Quarterly commission targets
+Annual commission targets
+Closed transaction targets
+New lead targets
+Qualified lead targets
+Pipeline targets
+Deal conversion targets
+Provide real-time target versus actual reporting based on underlying CRM and financial records.
+PART 9 — UNIFIED SALESFORCE-INSPIRED CRM
+Build an integrated CRM across all business workspaces.
+CRM Entities
+Contacts
+Companies
+Leads
+Accounts
+Opportunities
+Deals
+Pipelines
+Activities
+Meetings
+Follow-ups
+Notes
+Attachments
+Tasks
+Proposals
+Deal milestones
+CRM Capabilities
+Full contact profiles
+Relationship history
+Lead capture
+Lead qualification
+Lead source tracking
+Sales stages
+Opportunity management
+Deal probability
+Expected revenue
+Pipeline forecasting
+Lost opportunity reasons
+Sales activity logging
+Client follow-up reminders
+Search and filtering
+Task and calendar integration
+Financial target integration
+Sales reports
+Communication Features
+Where supported through authorized platform functionality:
+Call client
+Compose email
+Open WhatsApp contact or chat
+Schedule meeting
+Create follow-up
+Record conversation notes
+Link email or communication data through authorized integrations
+Do not assume unrestricted access to WhatsApp messages, phone call histories, emails, or third-party data.
+Smart Follow-up Engine
+Every important business contact and opportunity should have an optional defined next action.
+Develop lists such as:
+Follow up today
+Follow up tomorrow
+Overdue
+High-value opportunities
+Inactive leads
+Pending offers
+Awaiting client response
+Awaiting documentation
+Closing soon
+The application should intelligently identify opportunities that require attention without automatically inventing customer commitments.
+PART 10 — PERSONAL FINANCIAL GOAL MANAGEMENT
+In addition to business financial goals, build a separate private financial planning module.
+Support:
+Monthly savings goals
+Annual savings goals
+Personal income tracking
+Expense budgets
+Emergency fund goals
+Debt reduction goals
+Investment contribution tracking
+Net worth tracking where data is available
+Long-term financial independence planning
+Major purchase goals
+Custom financial objectives
+Every financial target should display:
+Target
+Actual
+Variance
+Percentage achieved
+Remaining amount
+Time remaining
+Historical trend
+Forecast
+Required future progress
+Maintain clear separation between:
+Business revenue
+Business profit
+Real estate commissions
+Personal income
+Savings
+Investments
+Cash received
+Expected future income
+Support AED as the default currency while allowing others.
+Do not double-count money transferred between businesses and personal accounts.
+Use appropriate accounting definitions for recorded metrics and clearly label estimates.
+PART 11 — DAILY LIFE COMMAND CENTER
+Create an exceptional primary home dashboard.
+This must become the screen I naturally open every morning.
+Morning Executive Briefing
+Display:
+Today's date
+Personalized greeting
+Three most important priorities
+Today's appointments
+Scheduled meetings
+Business follow-ups
+Personal commitments
+Overdue tasks
+Important deadlines
+Financial target status
+Today's fitness plan
+Reading or learning activities
+Spiritual routine reminders where configured
+Available focus time
+AI mentor's most relevant recommendation
+Daily Timeline
+Display my entire day in an interactive chronological format.
+Include:
+Meetings
+Calls
+Appointments
+Work sessions
+Personal activities
+Travel buffers
+Breaks
+Fitness sessions
+Reading sessions
+Learning time
+Spiritual routines
+Family commitments
+Unallocated time
+Allow tasks to be moved or rescheduled intuitively.
+Priority Engine
+Prioritize work based on:
+Urgency
+Importance
+Deadline
+Goal alignment
+Business impact
+Potential revenue
+Dependencies
+Available time
+User-defined preferences
+Make all priority recommendations explainable.
+Daily Execution
+Allow:
+Start task
+Pause task
+Complete task
+Add notes
+Reschedule
+Record outcome
+Link activity to goal
+Create follow-up
+View history
+Evening Review
+Provide:
+Planned versus completed tasks
+Time spent
+Important achievements
+Missed commitments
+Sales activity
+Personal growth actions
+Daily reflection
+Suggested priorities for tomorrow
+PART 12 — COMPLETE TASK AND PROJECT MANAGEMENT
+Develop a professional task and project management engine.
+Task Fields
+Title
+Description
+Workspace
+Category
+Priority
+Status
+Start date
+Due date
+Time
+Duration
+Recurrence
+Reminder
+Linked goal
+Linked project
+Linked contact
+Linked opportunity
+Notes
+Checklist
+Attachments
+Dependencies
+Completion history
+Task Views
+Today
+Tomorrow
+This Week
+Upcoming
+Overdue
+Completed
+All Tasks
+By Workspace
+By Goal
+By Project
+Calendar
+Kanban
+Priority Matrix
+Project Management
+Include:
+Projects
+Project objectives
+Project milestones
+Work breakdown
+Due dates
+Tasks
+Dependencies
+Progress
+Risks
+Notes
+Attachments
+Project completion reports
+Time Management
+Include:
+Time estimates
+Actual time tracking
+Focus sessions
+Calendar time-blocking
+Recurring tasks
+Quick task capture
+Smart rescheduling suggestions
+Time utilization reports
+An unfinished task must remain visible until completed, cancelled, or explicitly rescheduled.
+PART 13 — PHYSICAL FITNESS & WELLNESS DEVELOPMENT
+Provide detailed goal-setting and measurement for physical fitness.
+Fitness Goals
+Body weight targets
+Exercise consistency
+Walking targets
+Step targets
+Cardio
+Strength training
+Mobility
+Stretching
+Workout duration
+General wellness routines
+Wellness Goals
+Sleep routines
+Hydration habits
+Balanced nutrition routines
+Recovery time
+Self-reported energy
+Stress management practices
+Measurement
+Allow baselines, targets, and periodic measurements.
+Show:
+Daily activity
+Weekly workout completion
+Monthly consistency
+Weight trends where recorded
+Exercise duration
+Personal milestones
+Long-term trends
+Apple Health
+Evaluate authorized Apple Health/HealthKit integration on iPhone.
+Use explicit permission, data minimization, and applicable Apple platform restrictions.
+If aggregated health progress is shown on the Mac, implement only permitted, privacy-respecting data flows.
+Do not provide medical diagnoses or unsafe coaching.
+PART 14 — COMMUNICATION, CONFIDENCE & LEADERSHIP DEVELOPMENT
+Create an advanced communication development module.
+Skill Categories
+English fluency
+Professional vocabulary
+Public speaking
+Presentation delivery
+Business communication
+Negotiation
+Persuasion
+Active listening
+Leadership
+Meeting participation
+Professional writing
+Relationship building
+Confidence
+Emotional self-regulation
+Goal Setting
+Examples:
+Improve spoken English over 12 months.
+Complete weekly professional speaking exercises.
+Deliver monthly practice presentations.
+Improve negotiation performance.
+Develop leadership and business communication skills.
+Practical Exercises
+Daily speaking practice
+Vocabulary exercises
+Role-playing
+Mock negotiations
+Presentation rehearsal
+Short recorded speeches
+Written communication exercises
+Weekly learning challenges
+Assessment System
+Support:
+Baseline skill evaluation
+Practice records
+Self-assessment
+Milestone assessments
+AI feedback
+Historical comparisons
+Personalized improvement plans
+If implementing audio-based assessment, obtain permission and explain data handling.
+Distinguish objective measures from subjective or AI-generated feedback.
+PART 15 — BOOK READING & INTELLECTUAL DEVELOPMENT
+Build a complete reading and knowledge management system.
+Book Library
+Fields should include:
+Book title
+Author
+Category
+Reading status
+Total pages
+Pages read
+Reading start date
+Target finish date
+Actual completion date
+Reading sessions
+Personal notes
+Highlights entered by the user
+Key lessons
+Practical applications
+Personal rating
+Reading Goals
+Support goals such as:
+Books per year
+Books per month
+Pages per week
+Minutes per day
+Subject-specific reading
+Professional learning targets
+Reading Analytics
+Show:
+Books completed
+Pages read
+Reading time
+Monthly reading activity
+Annual reading trends
+Reading consistency
+Subject distribution
+Actionable Knowledge
+After finishing a book, encourage reflection:
+What did I learn?
+Why is it important?
+How can I apply this lesson?
+Which business or personal goal does it support?
+What practical action should I take?
+Allow insights to become tasks, projects, or goals.
+PART 16 — MEANINGFUL VIDEO, PODCAST & EDUCATIONAL CONTENT
+Build an organized personal learning environment.
+Content Categories
+Entrepreneurship
+Business strategies
+Sales
+Marketing
+Real estate
+Financial education
+Investment concepts
+Leadership
+Public speaking
+Communication
+Psychology
+Productivity
+Artificial intelligence
+Technology
+Personal development
+Spiritual education
+Family and relationships
+General knowledge
+Content Records
+Support:
+Title
+Creator
+Platform
+URL
+Category
+Duration
+Planned viewing date
+Completion status
+Notes
+Key takeaways
+Lessons learned
+Practical actions
+Related goals
+Support approved content sharing through the iPhone and Mac sharing mechanisms.
+Learning Plans
+Allow creation of structured learning paths.
+Example:
+90-Day Business Leadership Program
+Week 1: Leadership fundamentals.
+Week 2: Communication techniques.
+Week 3: Decision-making.
+Week 4: Delegation and accountability.
+Continue through an organized curriculum with configurable activities and progress tracking.
+The application must encourage meaningful application of knowledge, not just accumulation of watched videos.
+PART 17 — SPIRITUAL & INNER DEVELOPMENT
+Create a respectful, customizable spiritual development module.
+The user must be able to define goals consistent with personal beliefs.
+Possible Categories
+Prayer
+Religious reading
+Reflection
+Gratitude
+Meditation
+Spiritual learning
+Kindness
+Community service
+Charitable contribution
+Personal values
+Character development
+Requirements
+Custom routines
+Recurring reminders
+Frequency goals
+Personal reflections
+Optional private journal
+Consistency tracking
+Weekly review
+Monthly review
+Long-term reflections
+Do not assume a particular religion unless the user configures it.
+Protect sensitive spiritual information.
+Avoid assigning artificial moral or spiritual superiority scores.
+The purpose is personal commitment and meaningful reflection.
+PART 18 — FAMILY, RELATIONSHIPS & PERSONAL LIFE
+Create a private personal life management environment.
+Support:
+Family responsibilities
+Important family dates
+Personal appointments
+Relationship commitments
+Quality-time goals
+Important occasions
+Personal projects
+Travel planning tasks
+Household responsibilities
+Community commitments
+Leisure and recovery time
+Allow scheduled commitments to appear in the unified calendar.
+Provide configurable privacy boundaries so personal information does not appear unintentionally in business views or shared reports.
+PART 19 — HABIT FORMATION & PERSONAL DISCIPLINE
+Create a comprehensive habit system.
+Habit Examples
+Wake-up routine
+Exercise
+Reading
+Professional learning
+Communication practice
+Spiritual routines
+Daily planning
+Evening review
+Consistent sleep
+Personal reflection
+Functionality
+Daily habits
+Weekly habits
+Custom recurrence
+Check-ins
+Habit reminders
+Consistency tracking
+Calendar heatmaps
+Historical trends
+Streaks
+Pausing and resuming habits
+Habit notes
+Habit-to-goal connections
+Behavioral Design
+Use evidence-informed habit formation methods.
+Allow small, realistic commitments.
+Recommend reducing an excessively demanding habit schedule when necessary.
+Do not punish users for missed days.
+The system should promote sustained progress.
+PART 20 — PROGRESS AI: THE INTELLIGENT LIFE MENTOR
+This is the central intelligent component.
+Develop a sophisticated AI assistant called:
+PROGRESS AI — PERSONAL LIFE GROWTH MENTOR
+The assistant must feel like having access to:
+Executive assistant
+Business strategist
+Sales mentor
+Productivity coach
+Personal development coach
+Communication coach
+Learning advisor
+Accountability partner
+Reflective life planning companion
+20.1 Personalized Context
+The assistant should use authorized information from:
+Life vision
+Goals
+Business workspaces
+CRM
+Tasks
+Calendar
+Financial targets
+Recorded results
+Habits
+Learning history
+Previous assessments
+User-approved reflections
+The user must control which data the AI can access.
+20.2 Daily Guidance
+Each morning, provide:
+Today's top priorities
+Important business activities
+Personal development actions
+Meetings and follow-ups
+Scheduling recommendations
+Goal alignment
+Warnings about overloaded schedules
+20.3 Business Mentorship
+The AI should answer:
+"What are my most important Greentick opportunities?"
+"How far is iExpert from its monthly target?"
+"Which leads have not been followed up?"
+"Which business should receive greater attention this week?"
+"What activities can improve sales conversion?"
+"What is the gap between my forecasted and achieved revenue?"
+20.4 Personal Growth Mentorship
+The AI should answer:
+"Am I progressing toward my annual goals?"
+"What areas of my life have I neglected?"
+"How can I improve my communication abilities?"
+"What should I read this month?"
+"What habits should I establish?"
+"How can I organize my day more effectively?"
+"What have I improved during the last three months?"
+20.5 Coaching Conversations
+Support structured coaching conversations.
+Examples:
+Weekly accountability interview
+Monthly strategy session
+Financial goal review
+Communication practice
+Life priority review
+Personal discipline review
+Goal adjustment session
+20.6 Proactive Recommendations
+Generate suggestions when actual data indicates:
+Missed recurring commitments
+Stalled high-value opportunities
+Repeated task postponement
+Goals receiving insufficient attention
+Significant deviations from targets
+Unbalanced or overloaded schedules
+Upcoming financial milestones
+Avoid unnecessary repeated alerts.
+20.7 AI Safety and Trustworthiness
+Requirements:
+Ground factual claims in application records.
+Explain important calculations.
+Do not invent achievements.
+Do not invent revenue.
+Do not assume unrecorded conversations happened.
+Indicate uncertainty.
+Ask permission before consequential changes.
+Never send client communications without explicit authorization.
+Clearly distinguish coaching advice from professional medical, legal, or financial advice.
+Allow the user to dismiss recommendations.
+Allow AI functionality to be disabled.
+Do not create psychological dependency.
+20.8 Optional Coaching Styles
+Allow customization:
+Executive and strategic
+Supportive and encouraging
+Direct and accountable
+Analytical and data-oriented
+Balanced personal growth
+The coach's personality may change, but factual accuracy must remain consistent.
+PART 21 — THE LIFE PROGRESS GUIDANCE ENGINE
+Create a core system named:
+LIFE PROGRESS ENGINE
+This engine must connect all the application's modules.
+Operating Logic
+Step 1 — Understand
+Understand the user's selected aspirations and current position.
+Step 2 — Define
+Convert aspirations into measurable goals.
+Step 3 — Structure
+Create milestones and practical strategies.
+Step 4 — Schedule
+Allocate realistic time in the daily and weekly calendar.
+Step 5 — Execute
+Support completion of planned activities.
+Step 6 — Record
+Capture actual results and relevant evidence.
+Step 7 — Measure
+Compare actual results against targets and baselines.
+Step 8 — Analyze
+Detect meaningful trends, recurring barriers, and progress.
+Step 9 — Coach
+Provide clear, constructive recommendations.
+Step 10 — Improve
+Update future plans with user approval.
+Repeat this process continuously.
+Essential Requirement
+The user must be able to trace progress from any daily task back to the relevant long-term objective.
+For example:
+Reading a chapter today  weekly reading target  monthly book completion  annual knowledge goal  long-term personal development objective.
+Similarly:
+Client follow-up today  sales opportunity  expected commission  monthly Greentick target  annual financial goal  long-term financial ambition.
+PART 22 — SMART CALENDAR & INTELLIGENT SCHEDULING
+Build a professional scheduling engine.
+Calendar Views
+Today
+Week
+Month
+Agenda
+Workspaces
+Custom date range
+Scheduling
+Support:
+Appointments
+Tasks
+Meetings
+Recurring activities
+Focus blocks
+Travel buffers
+Breaks
+Personal commitments
+Business follow-ups
+Fitness sessions
+Reading sessions
+Learning activities
+Integrations
+Evaluate authorized synchronization with:
+Apple Calendar
+Apple Reminders
+Google Calendar
+Microsoft Outlook Calendar
+Implement only supported APIs and permission models.
+Smart Planning
+The AI should evaluate:
+Available time
+Activity duration
+Deadlines
+Priorities
+Dependencies
+Goal relevance
+Preferred working hours
+Personal commitments
+Existing appointments
+Generate realistic schedules rather than overloading every available hour.
+The user must approve important scheduling changes.
+PART 23 — WEEKLY ASSESSMENT SYSTEM
+Build an exceptionally detailed weekly performance assessment.
+Title:
+MY WEEKLY LIFE & BUSINESS GROWTH REPORT
+Report Sections
+	1	
+Executive Summary
+	2	
+Weekly Goal Achievement
+	3	
+iExpert Technologies Performance
+	4	
+iExpert Training Academy Performance
+	5	
+Greentick Real Estate Performance
+	6	
+Personal Financial Progress
+	7	
+Fitness and Wellness
+	8	
+Communication and Leadership Development
+	9	
+Book Reading
+	10	
+Meaningful Educational Content
+	11	
+Spiritual Development
+	12	
+Family and Personal Responsibilities
+	13	
+Task Completion
+	14	
+Time Utilization
+	15	
+Habit Consistency
+	16	
+Significant Achievements
+	17	
+Unfinished Commitments
+	18	
+Performance Trends
+	19	
+Challenges and Obstacles
+	20	
+AI Mentor Recommendations
+	21	
+Priorities for Next Week
+Weekly Assessment Logic
+For measurable goals, compare:
+Planned
+Actual
+Difference
+Completion percentage
+Trend
+Previous week
+Current week
+Required corrective action
+Clearly distinguish missed activities, failed outcomes, postponed objectives, and unavailable data.
+Weekly Planning Output
+The report must conclude with an editable plan for the next week.
+It should propose a realistic number of priorities rather than generating unlimited additional work.
+PART 24 — MONTHLY PERFORMANCE ASSESSMENT
+Title:
+MY MONTHLY EXECUTIVE & PERSONAL GROWTH REVIEW
+This must provide a deeper strategic analysis.
+Financial Analysis
+Display:
+iExpert revenue target
+iExpert actual revenue
+iExpert revenue growth
+iExpert academy performance
+Greentick commission target
+Greentick actual commission
+Expected future commission
+Combined relevant business performance
+Personal savings progress
+Revenue and financial trends
+Productivity Analysis
+Total planned tasks
+Total completed tasks
+Important incomplete tasks
+Time invested
+Major projects progressed
+Follow-up completion
+Focus time
+Repeated scheduling difficulties
+Personal Development Analysis
+Fitness progress
+Communication practice
+Learning hours
+Books completed
+Reading progress
+Educational content completed
+Habit consistency
+Spiritual routine progress
+Personal reflections
+AI Assessment
+The AI mentor must explain:
+What improved?
+What declined?
+Which targets were achieved?
+What contributed to progress?
+What obstacles occurred?
+Which goals need attention?
+What should be changed next month?
+What are the three to five most important next actions?
+Avoid unsupported causal conclusions.
+PART 25 — QUARTERLY STRATEGIC ASSESSMENT
+Create a quarterly strategy review.
+Include:
+Business financial performance
+Sales pipeline health
+Personal financial growth
+Goal milestone achievement
+Productivity trends
+Skill development
+Learning progress
+Fitness consistency
+Personal balance
+Key strategic decisions
+Upcoming quarter priorities
+Allow the user to revise annual goals and reallocate time or effort based on actual progress.
+Preserve original goals and revision history for meaningful comparison.
+PART 26 — YEARLY LIFE GROWTH ASSESSMENT
+Create an extraordinary annual assessment feature.
+Report Title:
+MY YEAR OF GROWTH
+Annual Life, Business & Personal Development Report
+This should feel like an expertly prepared annual report of my life.
+Annual Report Structure
+Section 1: Executive Life Summary
+Most important achievements, changes, and developments.
+Section 2: Life Vision Progress
+Progress toward major long-term objectives.
+Section 3: iExpert Business Performance
+Revenue, profitability where available, growth, customer development, and strategic milestones.
+Section 4: Greentick Real Estate Performance
+Closed deals, commissions, pipeline development, sales activities, and business growth.
+Section 5: Personal Financial Development
+Income, savings, financial objectives, and long-term financial progress.
+Section 6: Physical Fitness
+Exercise history, consistency, and measurable progress.
+Section 7: Communication & Leadership
+Practice, learning, assessments, and achievements.
+Section 8: Knowledge & Reading
+Books, learning hours, educational activities, and applied knowledge.
+Section 9: Spiritual & Inner Development
+Private reflection and user-defined progress indicators.
+Section 10: Family & Personal Life
+Meaningful personal commitments and reflections.
+Section 11: Productivity & Discipline
+Task completion, time allocation, consistency, and project execution.
+Section 12: Personal Achievements
+A timeline of important milestones.
+Section 13: Challenges
+Incomplete goals, obstacles, and lessons learned.
+Section 14: Year-over-Year Development
+Compare relevant metrics with previous years when sufficient data exists.
+Section 15: AI Mentor's Annual Assessment
+Detailed recommendations based on actual recorded information.
+Section 16: Next Year's Strategic Plan
+Generate an editable framework for the next year's goals.
+PART 27 — PREMIUM GRAPHICAL REPORTING ENGINE
+Graphical assessment is a core requirement.
+The application must not provide only text reports.
+Create advanced interactive visual reporting.
+Required Chart Types
+	1	
+Line charts
+	2	
+Bar charts
+	3	
+Stacked bar charts
+	4	
+Donut charts
+	5	
+Progress rings
+	6	
+Radar charts
+	7	
+Calendar heatmaps
+	8	
+KPI cards
+	9	
+Trend indicators
+	10	
+Milestone timelines
+	11	
+Target-versus-actual charts
+	12	
+Period-over-period comparisons
+	13	
+Financial forecasting charts
+	14	
+Goal hierarchy visualizations
+	15	
+Time allocation charts
+Examples
+Financial Growth
+Monthly actual revenue versus target for iExpert.
+Real Estate Performance
+Greentick commission income by month.
+Fitness
+Weekly exercise sessions over a year.
+Reading
+Books completed and pages read monthly.
+Communication
+Practice sessions and periodic skill assessments.
+Habit Consistency
+Daily calendar heatmap.
+Life Balance
+Configurable visual representation of the user's selected development dimensions.
+Report Controls
+Support:
+Daily
+Weekly
+Monthly
+Quarterly
+Yearly
+Custom Date Range
+Allow filtering by:
+Business
+Goal
+Life category
+Project
+Activity type
+Financial measure
+Every visual must use genuine source data.
+Allow users to inspect details behind any chart.
+Provide appropriate accessibility descriptions, clear labels, sensible scales, and professionally designed legends.
+Exporting
+Support:
+PDF reports
+CSV data
+Spreadsheet-compatible data exports
+Printable reports
+Shareable summaries
+Historical report storage
+Sensitive personal information must remain private unless the user explicitly chooses to share it.
+PART 28 — MY LIFE COMPASS
+Design a dedicated personal growth dashboard named:
+MY LIFE COMPASS
+This should provide a visual overview of my overall development.
+Initial dimensions:
+Business
+Financial
+Fitness
+Communication
+Knowledge
+Spiritual
+Family
+Discipline
+Allow customization.
+Life Compass Features
+Current goal achievement
+Previous-period comparisons
+Strengths
+Areas requiring attention
+Planned versus actual effort
+Relevant improvements
+Linked development programs
+AI coaching suggestions
+Use a radar chart where appropriate, but make each dimension's normalization method explicit.
+Do not imply that spiritual fulfillment, family happiness, or personal worth can be objectively measured by a single mathematical score.
+Provide optional self-assessment indicators instead.
+PART 29 — PERSONAL DEVELOPMENT PROGRAMS
+Allow the creation of structured programs.
+Examples:
+30-Day Fitness Consistency
+60-Day Reading Development
+90-Day Communication Improvement
+90-Day Leadership Development
+90-Day Sales Growth
+12-Month Financial Achievement
+Annual Reading Challenge
+Personal Discipline Development
+Spiritual Routine Development
+Custom Life Transformation Programs
+Every program must contain:
+Objective
+Baseline
+Desired outcome
+Duration
+Milestones
+Daily and weekly activities
+Resources
+Measurement methodology
+Progress dashboard
+Reviews
+Completion assessment
+Program activities must connect to the existing task and calendar systems.
+PART 30 — LONG-TERM PERSONAL GROWTH HISTORY
+The application must preserve a meaningful record of my progress over many years.
+Build a feature named:
+MY GROWTH JOURNEY
+Display:
+Important personal achievements
+Business milestones
+Financial milestones
+Books completed
+Courses completed
+Fitness achievements
+Communication milestones
+Important reflections
+Major life events
+Personal development programs completed
+Support:
+Chronological timeline
+Yearly grouping
+Category filters
+Notes
+Attachments
+Photos
+Search
+Historical comparisons
+This should become a private record of my evolving life journey.
+PART 31 — UNIFIED DATA AND WORKFLOW INTEGRATION
+No major module should operate independently.
+Create a unified activity model.
+Example: Greentick Sales Workflow
+	1	
+Create new client.
+	2	
+Add a property requirement.
+	3	
+Create lead.
+	4	
+Create opportunity.
+	5	
+Schedule meeting.
+	6	
+Add follow-up task.
+	7	
+Record meeting outcome.
+	8	
+Update sales stage.
+	9	
+Update commission forecast.
+	10	
+Reflect changes in monthly financial progress.
+	11	
+Include completed activity in daily report.
+	12	
+Include relevant achievement in weekly assessment.
+Example: Communication Improvement
+	1	
+Create annual communication goal.
+	2	
+Define monthly practice targets.
+	3	
+Schedule weekly sessions.
+	4	
+Record completed activities.
+	5	
+Save assessment results.
+	6	
+Update goal progress.
+	7	
+Display trends in monthly report.
+	8	
+Receive AI guidance on next steps.
+Example: Fitness
+	1	
+Define objective.
+	2	
+Create workout plan.
+	3	
+Schedule sessions.
+	4	
+Record activity.
+	5	
+Track relevant outcomes.
+	6	
+Display consistency charts.
+	7	
+Analyze monthly progress.
+	8	
+Revise plan as needed.
+A single genuine activity should update every relevant view without repeated data entry.
+PART 32 — PREMIUM USER INTERFACE
+Develop an elegant, award-quality application experience.
+Design Principles
+Apple-native
+Premium
+Modern
+Clean
+Beautiful typography
+Excellent spacing
+High readability
+Professional information architecture
+Purposeful animations
+Consistent components
+Light and dark modes
+Minimal friction
+Strong accessibility
+Intelligent visual hierarchy
+Take design inspiration from the usability of leading Apple applications, the depth of Salesforce, the simplicity of leading task managers, and the reporting quality of professional business intelligence systems.
+Do not copy proprietary branding or interface assets.
+iPhone Main Navigation
+Suggested sections:
+TODAY
+Daily schedule and executive command center.
+BUSINESS
+CRM, contacts, opportunities, financial targets, and business reports.
+GOALS
+Life Blueprint, personal goals, fitness, skills, reading, spiritual routines, and habits.
+PROGRESS
+Performance dashboards, weekly reviews, monthly reports, annual assessments, and growth history.
+AI MENTOR
+Personalized coaching and planning assistant.
+Use a global quick-add control to make creating records effortless.
+MacBook Navigation
+Use an organized sidebar with additional desktop-optimized capabilities.
+Provide:
+Executive Home
+Calendar
+Tasks
+Projects
+CRM
+iExpert
+Greentick
+Financial Goals
+Life Goals
+Fitness
+Communication
+Learning
+Spiritual Development
+Habits
+Reports
+AI Mentor
+Settings
+Both platforms must preserve the same underlying functionality and records, even when their layouts differ.
+PART 33 — INTELLIGENT AUTOMATION ENGINE
+Build a controlled, user-configurable automation system.
+Examples:
+Create a follow-up reminder for a new lead.
+Suggest follow-up after a proposal.
+Flag inactive opportunities.
+Remind about upcoming milestones.
+Prepare the morning briefing.
+Prepare evening review.
+Schedule weekly assessment.
+Generate monthly performance report.
+Detect upcoming annual target gaps.
+Suggest task rescheduling.
+Alert when a goal consistently receives insufficient attention.
+Recommend learning activities connected to selected goals.
+Automation Requirements
+Enable/disable
+Configurable rules
+Notification settings
+Approval requirements
+Execution history
+Error handling
+Duplicate prevention
+Safe retries
+Time zone awareness
+Use supported background processing and server-side scheduling where required.
+Do not promise continuous iOS background execution beyond platform capabilities.
+PART 34 — NOTIFICATIONS, REMINDERS & ACCOUNTABILITY
+Build a thoughtful notification system.
+Support:
+Morning briefing
+Meeting reminders
+Task reminders
+Client follow-ups
+Deal deadlines
+Fitness reminders
+Reading reminders
+Personal commitments
+Goal review reminders
+Weekly assessment
+Monthly assessment
+Annual planning
+Allow:
+Quiet hours
+Notification priority
+Device-specific preferences
+Category-specific notifications
+Reminder snoozing
+Alert history
+Do-not-disturb preferences
+Avoid excessive notifications.
+Where practical, avoid unnecessarily duplicating the same alert on both Apple devices.
+PART 35 — SEARCH, CAPTURE & DAILY CONVENIENCE
+The application should be extremely fast to use.
+Universal Quick Capture
+Allow immediate creation of:
+Task
+Note
+Idea
+Lead
+Contact
+Meeting
+Financial transaction
+Goal
+Habit entry
+Reading session
+Reflection
+Search
+Provide one global search across authorized records.
+Search should support:
+Keywords
+Contacts
+Companies
+Properties
+Deals
+Tasks
+Goals
+Notes
+Dates
+Categories
+Productivity Enhancements
+Evaluate:
+Siri Shortcuts / App Intents
+Home Screen widgets
+Lock Screen widgets where supported
+macOS keyboard shortcuts
+macOS menu-bar quick capture
+iOS Share Sheet
+Native notifications
+Deep links
+Voice entry
+Document attachments
+Local file import
+Only implement platform-supported features.
+PART 36 — DATABASE & SOFTWARE ARCHITECTURE
+Build a clean, maintainable, scalable data architecture.
+Core Entities
+User
+Profile
+Workspace
+Life Category
+Life Vision
+Goal
+Goal Milestone
+Goal Metric
+Goal Progress Record
+Goal Revision
+Task
+Task Recurrence
+Project
+Project Milestone
+Calendar Event
+Contact
+Company
+Lead
+Opportunity
+Pipeline
+Deal Stage
+CRM Activity
+Property
+Transaction
+Commission
+Revenue Record
+Expense Record
+Financial Target
+Habit
+Habit Check-in
+Fitness Record
+Skill
+Skill Assessment
+Practice Session
+Book
+Reading Session
+Learning Resource
+Learning Activity
+Spiritual Routine
+Personal Reflection
+Coaching Conversation
+AI Recommendation
+Notification
+Automation Rule
+Assessment
+KPI Definition
+KPI Measurement
+Generated Report
+Attachment
+Audit Event
+Sync State
+User Preferences
+Model relationships carefully.
+For example, a task may link to multiple goals while preserving a single authoritative task record.
+Design explicit distinctions between financial estimates, actuals, forecasts, and settlements.
+Engineering Standards
+Modular architecture
+Reusable SwiftUI components
+Shared iOS/macOS domain models
+Testable business logic
+Clear dependency boundaries
+Well-defined persistence layer
+Database migrations
+Error handling
+Structured logging
+Secure credential management
+Data validation
+Synchronization testing
+Automated tests
+Accessibility support
+Avoid duplicated business logic across the iPhone and Mac versions.
+PART 37 — SECURITY & PRIVACY
+This application will contain personal, business, financial, and potentially sensitive information.
+Implement appropriate protections.
+Security Requirements
+Secure authentication
+Sign in with Apple where suitable
+Biometric device locking where supported
+Secure session management
+Encryption in transit
+Appropriate encryption at rest
+Secure key storage
+Access controls
+Protected cloud database
+Safe file storage
+Data export
+Account deletion
+Recovery and backup
+Audit history for important changes
+Privacy Controls
+Allow personal control over:
+AI access to sensitive data
+Business and personal workspace separation
+Financial information visibility
+Spiritual records
+Health and wellness records
+Coaching history
+Notification content
+Data retention
+Sharing and exports
+Do not send sensitive personal content to external AI services without appropriate user disclosure and authorization.
+Never hard-code production API secrets into either Apple application.
+PART 38 — AUTOMATIC REPORTING & DATA INTEGRITY
+All reporting must be based on reliable underlying data.
+Important Reporting Rules
+Store actual recorded transactions.
+Preserve historical progress.
+Keep accurate timestamps.
+Support correct calendar periods.
+Use Asia/Dubai as the initial preferred time zone, while allowing changes.
+Support configurable first day of week.
+Provide consistent currency formatting.
+Prevent duplicate financial aggregation.
+Separate financial targets from actual income.
+Distinguish activity tracking from outcome measurement.
+Use transparent KPI formulas.
+Mark missing data.
+Do not fabricate past performance.
+Explain confidence and assumptions in forecasts.
+Reports should remain reproducible and auditable.
+Allow the user to correct historical records while maintaining appropriate traceability.
+PART 39 — APPLICATION ONBOARDING
+Design a premium onboarding experience.
+Initial Setup
+Ask for:
+Preferred name
+Time zone
+Currency
+Working hours
+Personal and business workspaces
+Main professional objectives
+Initial financial targets
+Personal development priorities
+Daily scheduling preferences
+Calendar permissions
+Notification preferences
+AI mentoring preferences
+Personalized First-Week Setup
+Guide me through:
+Day 1 — Establish Life Blueprint.
+Day 2 — Configure businesses and financial goals.
+Day 3 — Define annual and monthly personal goals.
+Day 4 — Organize tasks and schedules.
+Day 5 — Configure CRM and sales pipeline.
+Day 6 — Establish fitness, learning, communication, and spiritual routines.
+Day 7 — Review first week's progress and refine plans.
+Make the sequence optional and flexible rather than compulsory.
+PART 40 — REQUIRED APPLICATION SCREENS
+Create a complete screen architecture.
+At minimum include:
+	1	
+Welcome
+	2	
+Login
+	3	
+User Profile
+	4	
+Onboarding
+	5	
+Life Blueprint
+	6	
+Executive Home
+	7	
+Morning Briefing
+	8	
+Daily Calendar
+	9	
+Weekly Calendar
+	10	
+Monthly Calendar
+	11	
+Task List
+	12	
+Task Creation
+	13	
+Task Details
+	14	
+Project Management
+	15	
+Workspace Selector
+	16	
+Business Dashboard
+	17	
+Contact List
+	18	
+Contact Profile
+	19	
+Lead List
+	20	
+Lead Details
+	21	
+Opportunity Pipeline
+	22	
+Opportunity Details
+	23	
+Property Records
+	24	
+Transaction Management
+	25	
+iExpert Dashboard
+	26	
+Training Academy Dashboard
+	27	
+Greentick Dashboard
+	28	
+Financial Goals
+	29	
+Revenue Tracking
+	30	
+Commission Tracking
+	31	
+Personal Finance Goals
+	32	
+Life Goals
+	33	
+Goal Creation Wizard
+	34	
+Goal Details
+	35	
+Annual Goal Planner
+	36	
+Quarterly Planner
+	37	
+Monthly Goal Planner
+	38	
+Weekly Goal Planner
+	39	
+Fitness Dashboard
+	40	
+Fitness Tracking
+	41	
+Communication Development
+	42	
+Communication Practice
+	43	
+Skill Assessments
+	44	
+Book Library
+	45	
+Reading Progress
+	46	
+Educational Content
+	47	
+Learning Programs
+	48	
+Spiritual Routines
+	49	
+Family and Personal Life
+	50	
+Habit Dashboard
+	51	
+Habit Details
+	52	
+Life Compass
+	53	
+Daily Assessment
+	54	
+Weekly Report
+	55	
+Monthly Report
+	56	
+Quarterly Review
+	57	
+Annual Life Growth Report
+	58	
+Graphical Analytics
+	59	
+Growth Journey
+	60	
+Achievement Timeline
+	61	
+Progress AI Chat
+	62	
+AI Recommendations
+	63	
+Daily Review
+	64	
+Notifications
+	65	
+Global Search
+	66	
+Quick Add
+	67	
+Synchronization Status
+	68	
+Integrations
+	69	
+Data Export
+	70	
+Settings and Privacy
+These may share reusable layouts and components.
+The priority is functional completeness, not unnecessarily duplicating code or screens.
+PART 41 — COMPLETE QUALITY ASSURANCE REQUIREMENTS
+Create a systematic testing strategy.
+Required Tests
+Authentication tests
+User onboarding tests
+Task creation and completion
+Goal hierarchy
+Goal progress calculations
+Financial calculations
+CRM activity relationships
+Commission calculations
+Recurring task logic
+Calendar conflict handling
+Report aggregation
+Report date-range filtering
+PDF report generation
+Offline data persistence
+Bidirectional synchronization
+Concurrent edits
+Conflict resolution
+Attachment synchronization
+Device permission handling
+Notification scheduling
+Data export and recovery
+AI action approvals
+Security boundaries
+Accessibility
+iPhone UI layout
+MacBook UI layout
+Real-Life Acceptance Tests
+Test A
+Create a task on MacBook and verify it appears on iPhone.
+Test B
+Complete that task on iPhone and verify MacBook updates.
+Test C
+Create a Greentick opportunity and link a follow-up to the calendar.
+Test D
+Update a confirmed transaction and verify that the correct commission totals appear in reports.
+Test E
+Create an annual fitness goal and verify that recorded activity updates the weekly and monthly progress dashboards.
+Test F
+Record a reading session on iPhone and verify synchronized progress on MacBook.
+Test G
+Generate a monthly report containing accurate graphs based on stored data.
+Test H
+Modify a record offline and confirm its correct synchronization later.
+Test I
+Modify the same record on different devices and verify the defined conflict-handling behavior.
+Test J
+Close and reopen both applications, verifying data persistence.
+Test K
+Generate an annual assessment without fabricating unavailable historical information.
+Test L
+Check that private personal records are not accidentally exposed in business exports or AI features without permission.
+These are mandatory acceptance criteria.
+PART 42 — DEVELOPMENT EXECUTION STRATEGY
+You must not attempt to produce hundreds of superficial screens without functioning underlying architecture.
+Build the application in controlled, working milestones.
+Milestone 1 — Product Blueprint & Foundation
+Produce:
+Complete Product Requirements Document
+Requirements traceability matrix
+Information architecture
+iOS/macOS user flows
+Architecture decision record
+Database schema
+Synchronization design
+Security architecture
+Development roadmap
+Acceptance criteria
+Milestone 2 — Working Cross-Device Foundation
+Develop:
+iOS application shell
+macOS application shell
+Shared data models
+Authentication
+Local persistence
+Cloud synchronization
+Workspace management
+Basic navigation
+Cross-device synchronization test
+Prove that a record created on one device synchronizes correctly to the other before expanding the system.
+Milestone 3 — Daily Command Center
+Develop:
+Tasks
+Daily calendar
+Reminders
+Projects
+Recurring activities
+Home dashboard
+Daily review
+Milestone 4 — Business CRM
+Develop:
+Contacts
+Leads
+Opportunities
+Pipelines
+Follow-ups
+Business workspaces
+Property and transaction records
+CRM-to-calendar integration
+Milestone 5 — Financial Goals
+Develop:
+iExpert financial targets
+iExpert Training Academy goals
+Greentick commission goals
+Personal financial goals
+Actual financial records
+Target-versus-actual analytics
+Milestone 6 — Life Goals and Personal Growth
+Develop:
+Life Blueprint
+Goal hierarchy
+Fitness goals
+Communication goals
+Reading goals
+Learning goals
+Spiritual routines
+Habits
+Personal progress records
+Milestone 7 — Assessment Engine
+Develop:
+Weekly reports
+Monthly reports
+Quarterly reviews
+Annual reports
+Interactive graphical dashboards
+Exportable reports
+Life Compass
+Milestone 8 — AI Mentor
+Develop:
+AI chat
+Personalized daily planning
+Business insights
+Goal coaching
+Progress analysis
+Learning guidance
+Evidence-grounded recommendations
+Milestone 9 — Advanced Automation
+Develop:
+Follow-up automation
+Smart rescheduling
+Scheduled assessments
+Personalized coaching reminders
+Notification controls
+Milestone 10 — Final Optimization & Deployment
+Complete:
+Code review
+Testing
+Security review
+Performance improvements
+UX refinements
+Offline and sync reliability
+Real iPhone testing
+MacBook testing
+Installation documentation
+Backup and restore validation
+Each milestone must produce working, testable software.
+PART 43 — DOCUMENTATION AND PROJECT CONTINUITY
+Because this is a large project developed over multiple sessions, maintain a structured project repository.
+Create and update documentation such as:
+README.md
+PRODUCT_VISION.md
+REQUIREMENTS.md
+FEATURE_MATRIX.md
+ARCHITECTURE.md
+DATA_MODEL.md
+SYNC_STRATEGY.md
+UI_DESIGN_SYSTEM.md
+DEVELOPMENT_ROADMAP.md
+IMPLEMENTATION_STATUS.md
+TEST_PLAN.md
+CHANGELOG.md
+DEPLOYMENT_GUIDE.md
+KNOWN_ISSUES.md
+Maintain a requirements traceability table showing:
+Feature ID
+Requirement
+Priority
+Related screens
+Related database models
+Implementation status
+Test status
+Dependencies
+Remaining work
+When a new development session begins, review the current project documentation before changing code.
+Never silently remove agreed features.
+If architectural changes are necessary, explain the implications and update the specifications.
+PART 44 — STRICT NON-NEGOTIABLE RULES
+	1	
+This must be a genuine Apple application, not only a web prototype.
+	2	
+It must operate on my iPhone 13 Pro Max and compatible MacBook.
+	3	
+It must support automatic two-way cloud synchronization.
+	4	
+It must support essential offline functionality.
+	5	
+It must connect business CRM, tasks, schedules, goals, and progress.
+	6	
+It must provide detailed measurable goal setting.
+	7	
+It must support iExpert and Greentick independently.
+	8	
+It must track exact financial targets and genuine actual figures.
+	9	
+It must include personal fitness and wellness goals.
+	10	
+It must include communication and leadership development.
+	11	
+It must include book reading and educational content management.
+	12	
+It must include customizable spiritual development.
+	13	
+It must include family and personal-life planning.
+	14	
+It must provide weekly, monthly, quarterly, and annual assessments.
+	15	
+It must provide detailed graphical representations.
+	16	
+It must contain a personalized AI life mentor.
+	17	
+It must provide long-term progress history.
+	18	
+It must be highly configurable.
+	19	
+It must protect personal and financial data.
+	20	
+It must provide professional data exports.
+	21	
+It must use real persistence rather than hard-coded dashboard values.
+	22	
+It must have professional Apple-native design.
+	23	
+It must have reliable navigation and functioning controls.
+	24	
+It must have proper error handling and testing.
+	25	
+It must be installable and usable on my actual devices.
+	26	
+It must not misrepresent prototypes as completed applications.
+	27	
+It must prioritize maintainability and data reliability over feature quantity.
+	28	
+It must preserve already implemented working features.
+	29	
+It must use realistic planning instead of overwhelming me with tasks.
+	30	
+It must evolve with my life, businesses, responsibilities, and ambitions.
+PART 45 — FINAL USER EXPERIENCE VISION
+Imagine opening PROGRESS ONE on my iPhone at the beginning of the day.
+The application understands the goals I have explicitly established and the information I have recorded.
+It presents:
+"Good morning.
+Here is your schedule for today.
+These are your most important business priorities.
+These Greentick clients require follow-up.
+These iExpert targets need attention.
+These are the personal development commitments you have planned.
+This is your progress toward your monthly financial goals.
+These are the actions most relevant to your annual ambitions.
+Here is a realistic schedule to help you make meaningful progress today."
+During the day, I complete activities and record outcomes.
+Later, I open the MacBook version.
+All the information from my iPhone is synchronized.
+I can review detailed financial charts, manage clients, organize projects, analyze goals, plan the coming week, and discuss improvement strategies with my AI mentor.
+At the end of the week, the application provides an intelligent assessment of my professional and personal progress.
+At the end of the month, it produces a detailed graphical performance report.
+At the end of the year, it shows how my businesses, finances, physical fitness, communication abilities, knowledge, habits, spiritual routines, and personal objectives have developed.
+It helps me understand what has changed, what I have accomplished, what requires improvement, and which actions are most likely to help me progress further.
+The application must encourage consistent improvement while recognizing that rest, family, meaningful relationships, health, and personal fulfillment are also essential parts of a successful life.
+PART 46 — YOUR IMMEDIATE INSTRUCTIONS AS CLAUDE
+Begin this project as a professional software development organization.
+FIRST: FULLY UNDERSTAND THE VISION
+Analyze all requirements in this document.
+Identify the essential features, shared systems, dependencies, workflows, risks, and technical constraints.
+Do not discard any major feature merely because the project is extensive.
+SECOND: CREATE THE COMPLETE PRODUCT BLUEPRINT
+Produce:
+	1	
+Final product vision and positioning
+	2	
+Complete feature specification
+	3	
+Priority and dependency mapping
+	4	
+Full navigation architecture
+	5	
+iPhone screen architecture
+	6	
+MacBook screen architecture
+	7	
+Detailed Life Blueprint design
+	8	
+Detailed Goal Setting Engine design
+	9	
+CRM and business management architecture
+	10	
+Financial tracking architecture
+	11	
+Progress assessment and analytics architecture
+	12	
+AI mentorship architecture
+	13	
+Cloud synchronization architecture
+	14	
+Database design
+	15	
+UI/UX design system
+	16	
+Security and privacy plan
+	17	
+Development and testing roadmap
+THIRD: CREATE A TRACEABILITY MATRIX
+Make sure every major requirement in this master prompt is represented in the product specification.
+Explicitly identify features that share underlying data models or services.
+FOURTH: DESIGN THE PRIMARY SCREENS
+Start with detailed designs for:
+Executive Home Dashboard
+My Life Blueprint
+Daily Schedule
+Complete Task Manager
+CRM and Business Dashboard
+Financial Goal Manager
+Personal Goal Manager
+Life Compass
+Weekly Performance Report
+Monthly Performance Report
+Annual Life Growth Report
+Progress AI Mentor
+Design for both iPhone and MacBook.
+FIFTH: BUILD THE ACTUAL APPLICATION
+After establishing the architecture, proceed into real development.
+If you have access to the local project and coding environment:
+Create the project files.
+Write application code.
+Configure the architecture.
+Implement database models.
+Implement working interfaces.
+Build and test where tools are available.
+Resolve errors.
+Maintain documentation.
+Deliver the application milestone by milestone.
+If direct file-system or build-tool access is unavailable, state the limitation clearly and provide complete source files and practical execution steps.
+Do not pretend to have installed, compiled, tested, or synchronized anything that has not actually been verified.
+SIXTH: PROVE IPHONE–MACBOOK SYNCHRONIZATION
+Before declaring the project complete, validate actual data synchronization between the two platforms.
+The application must pass the cross-device acceptance tests.
+SEVENTH: PROVIDE INSTALLATION INSTRUCTIONS
+Prepare precise steps for installing, configuring, signing, and launching the application on my iPhone 13 Pro Max and MacBook.
+Identify the exact requirements that depend on my Mac model, installed macOS, developer-account capabilities, and selected cloud architecture.
+EIGHTH: MAINTAIN A COMPLETE PROJECT STATUS
+At every significant stage, state:
+What has been implemented
+What has been tested
+What is still pending
+What issues remain
+What action is required next
+Continue implementing the planned milestones as permitted by the development environment and available session.
+ULTIMATE DIRECTIVE
+I want PROGRESS ONE to become the personal operating system I have been searching for throughout my life.
+It should bring structure to my ambitions, discipline to my daily actions, intelligence to my business decisions, measurable progress to my financial objectives, continuous improvement to my personal abilities, and clarity to my long-term direction.
+It must not merely manage what I do. It must help me become who I want to become.
+Build it with the vision of a world-class product designer, the discipline of a senior software architect, the intelligence of an executive strategist, and the practical understanding of a lifelong personal development coach.
+PROGRESS ONE
+One Life. One System. Continuous Growth.
+Now begin the complete product architecture and development process, with the objective of delivering a real, synchronized, production-quality iPhone and MacBook application.
